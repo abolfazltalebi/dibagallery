@@ -1,24 +1,24 @@
-import React from "react";
-import HeroSectionImage from "./HeroSectionImage";
-import HeroSectionCaption from "./HeroSectionCaption";
 import ScrollAnimation from "../../../components/ScrollAnimation";
+import TitleSection from "../../../components/TitleSection";
+import CategoriesItems from "./CategoriesItems";
 
-export default function HeroSection() {
+export default function Categories() {
   return (
-    <section className="container grid grid-cols-1 sm:grid-cols-2 items-center justify-center gap-4">
-      <ScrollAnimation
+    <section className="container space-y-6">
+     <ScrollAnimation
         initial={{ opacity: 0, translateX: 100 }}
         animate={{ opacity: 1, translateX: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
       >
-        <HeroSectionImage />
+          <TitleSection title={"categories"} caption={"Category diba gallery"} />
+
       </ScrollAnimation>
       <ScrollAnimation
         initial={{ opacity: 0, translateX: -100 }}
         animate={{ opacity: 1, translateX: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
       >
-        <HeroSectionCaption />
+      <CategoriesItems />
       </ScrollAnimation>
     </section>
   );
