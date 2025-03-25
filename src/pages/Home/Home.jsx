@@ -1,9 +1,9 @@
 import HeroSection from "./HeroSection/HeroSection";
-import TitleSection from "../../components/TitleSection";
 import Collection from "./Collection/Collection";
 import AboutSection from "./AboutSection/AboutSection";
 import Categories from "./Categories/Categories";
 import UniqueCollection from "./UniqueCollection";
+import TrendingProducts from "./TrendingProducts/TrendingProducts";
 export default function Home() {
   return (
     <>
@@ -12,6 +12,7 @@ export default function Home() {
       <AboutSection/>
       <Categories/>
       <UniqueCollection/>
+      <TrendingProducts/>
     </>
   );
 }
