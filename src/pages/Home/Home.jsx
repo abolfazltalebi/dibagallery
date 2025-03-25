@@ -3,6 +3,7 @@ import TitleSection from "../../components/TitleSection";
 import Collection from "./Collection/Collection";
 import AboutSection from "./AboutSection/AboutSection";
 import Categories from "./Categories/Categories";
+import UniqueCollection from "./UniqueCollection";
 export default function Home() {
   return (
     <>
@@ -10,6 +11,7 @@ export default function Home() {
       <Collection/>
       <AboutSection/>
       <Categories/>
+      <UniqueCollection/>
     </>
   );
 }
