@@ -16,11 +16,11 @@ export default function ProductsCard(Pprops) {
             sapiente eum animi fugiat asperiores atque ipsam, iusto saepe.
             Inventore minima quos doloribus!
           </p>
-          <div className="flex items-center justify-between gap-3">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
             <button className="bg-[#F3A60D] p-2 rounded-xl capitalize text-xs w-full cursor-pointer transition-all duration-100 group-hover:bg-white group-hover:border group-hover:border-[#F3A60D] group-hover:shadow">
               view product
             </button>
-            <span className="text-sm bg-white/90 p-2 rounded-xl">{price}$</span>
+            <span className="text-sm bg-white/90 p-2 rounded-xl hidden sm:inline">{price}$</span>
           </div>
         </div>
       </div>

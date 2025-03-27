@@ -13,7 +13,7 @@ export default function FooterColumn(fColumn) {
             </div>
             <a
               href={item.link}
-              className="transition-all duration-300 hover:bg-[#ffa41b]  p-2 rounded-2xl text-md sm:text-sm"
+              className="transition-all duration-300 hover:bg-[#ffa41b]  p-2 rounded-2xl text-sm sm:text-sm"
             >
               {item.name}
             </a>
