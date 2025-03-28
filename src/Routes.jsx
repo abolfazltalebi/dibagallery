@@ -2,6 +2,7 @@ import NotFound from "./pages/NotFound/NotFound";
 import { createBrowserRouter } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
 import Home from "./pages/Home/Home";
+import SearchNotFound from "./pages/SearchNotFound";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -11,10 +12,10 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home />,
       },
-      //   {
-      //     path: "/userProfile",
-      //     element: <UserProfile />,
-      //   },
+        {
+          path: "/search-not-found",
+          element: <SearchNotFound />,
+        },
       //   {
       //     path: "/privacyPolicy",
       //     element: <PrivacyPolicy/>,
