@@ -3,8 +3,8 @@ import { createBrowserRouter } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
 import Home from "./pages/Home/Home";
 import SearchNotFound from "./pages/SearchNotFound";
-import AboutUs from "./pages/aboutUs/aboutUs";
 import ContactUs from "./pages/ContactUs/ContactUs";
+import AboutUs from "./pages/aboutUs/AboutUs";
 const router = createBrowserRouter([
   {
     path: "/",
