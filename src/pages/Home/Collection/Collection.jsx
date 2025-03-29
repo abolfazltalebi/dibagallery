@@ -4,7 +4,7 @@ import CollectionItems from "./CollectionItems";
 
 export default function Collection() {
   return (
-    <section className="container space-y-6">
+    <section className="container space-y-6" id="collection">
       <ScrollAnimation
         initial={{ opacity: 0, translateX: 100 }}
         animate={{ opacity: 1, translateX: 0 }}
