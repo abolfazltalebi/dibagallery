@@ -18,7 +18,7 @@ export default function HeaderMobile() {
 
       {isOpen && (
         <div
-          className="fixed inset-0 bg-white/70   z-40"
+          className="fixed inset-0    z-40"
           onClick={toggleMenu}
         />
       )}
@@ -27,7 +27,7 @@ export default function HeaderMobile() {
         initial={{ x: "100%" }}
         animate={{ x: isOpen ? "0%" : "100%" }}
         transition={{ stiffness: 150 }}
-        className="fixed top-0 right-0 w-64 h-full bg-[#EFEFED] shadow-lg z-50 p-6 flex flex-col"
+        className="fixed top-0 right-0 w-64 h-full bg-[#143C49] text-white shadow-lg z-50 p-6 flex flex-col"
       >
         <button
           onClick={toggleMenu}
@@ -42,7 +42,7 @@ export default function HeaderMobile() {
               <li key={id}>
                 <Link
                   to={link}
-                  className="text-lg font-medium text-gray-700 hover:text-[#ed952b]"
+                  className="text-lg font-medium  hover:text-[#ed952b]"
                   onClick={toggleMenu}
                 >
                   {name}

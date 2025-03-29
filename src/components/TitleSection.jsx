@@ -8,10 +8,10 @@ export default function TitleSection(props) {
         <img src={arrow} alt="" />
         <img src={line} alt="" />
       </div>
-      <h2 className="text-[#F3A60D] text-2xl md:text-4xl capitalize">
+      <h2 className="text-[#E58411] font-medium text-2xl md:text-4xl capitalize">
         {title}
       </h2>
-      <p className="text-sm text-gray-600">{caption}</p>
+      <p className="text-sm text-gray-300">{caption}</p>
     </div>
   );
 }

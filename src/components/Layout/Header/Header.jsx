@@ -7,14 +7,14 @@ import HeaderSearch from "./HeaderSearch";
 
 export default function Header() {
   return (
-    <header className="  bg-[#EFEFED]  p-4">
+    <header className=" border-b  border-b-[#EFEFED]  p-4">
       <div className="container flex items-center justify-between">
         <HeaderLogo />
         <HeaderLastLogo />
         <div className="hidden sm:flex items-center gap-4 relative">
           <HeaderSearch />
           <HeaderBag />
-          <button className="bg-[#D39C4A] px-5 py-2 rounded-full text-sm hidden sm:flex">
+          <button className="bg-[#E58411] px-5 py-2 rounded-full text-sm hidden sm:flex">
             Login
           </button>
         </div>

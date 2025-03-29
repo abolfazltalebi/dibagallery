@@ -5,6 +5,8 @@
   body {
     font-family: "Mulish", sans-serif;
     scroll-behavior: smooth;
+    background: #143C49;
+    color: white;
   }
   .container {
     width: 100%;
@@ -56,5 +58,8 @@
   }
   .button-nft:hover {
     @apply bg-[#F81DFB];
+  }
+  .icon-footer{
+    @apply size-12 border p-2.5 rounded-full transition-all duration-300 hover:bg-[#F3A60D];
   }
 }

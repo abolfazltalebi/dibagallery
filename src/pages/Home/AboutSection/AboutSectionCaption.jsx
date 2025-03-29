@@ -12,7 +12,7 @@ export default function AboutSectionCaption() {
         torquent suspendisse lacinia aenean. Per mi sodales inceptos montes nec
         in massa non. Ultricies finibus varius eu luctus sagittis.
       </p>
-      <button className="px-8 py-3 rounded-[50px_50px_50px_0px] bg-[#FFF4E9] text-sm capitalize">
+      <button className="px-8 py-3 rounded-[50px_50px_50px_0px] bg-[#E58411] text-sm capitalize transition-all duration-300 hover:px-10">
         view more
       </button>
     </div>
