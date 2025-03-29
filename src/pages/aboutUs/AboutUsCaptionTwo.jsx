@@ -2,14 +2,14 @@ import React from "react";
 
 export default function AboutUsCaptionTwo() {
   return (
-    <section>
+    <section className="container mt-6 space-y-2">
       <h2 className="text-2xl font-bold">Why Choose Diba Jewelry Gallery?</h2>
       <p className="text-sm text-justify break-all">
         At Diba Jewelry Gallery, we understand that jewelry is an
         investment—both emotionally and financially. Here’s why our customers
         trust us:
       </p>
-      <ul className="list-disc space-y-1 m-6">
+      <ul className="list-disc space-y-1 mx-6">
         <li>
           Superior Craftsmanship: Every piece is handcrafted with meticulous
           attention to detail, ensuring the highest level of quality.

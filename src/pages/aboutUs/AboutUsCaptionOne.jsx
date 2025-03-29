@@ -1,7 +1,7 @@
 
 export default function AboutUsCaptionOne() {
   return (
-    <section className="space-y-3">
+    <section className="space-y-3 container">
     <p className="text-sm text-justify break-all">
       Diba Jewelry Gallery is a distinguished name in the world of fine
       jewelry, offering a captivating collection of gold and gemstone pieces
