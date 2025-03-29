@@ -48,7 +48,6 @@
     }
   }
 }
-
 @layer utilities {
   .hover-header {
     @apply capitalize transition-all duration-300 hover:bg-white hover:-translate-y-1 px-4 py-2 hover:text-[#E58411] rounded-full;
@@ -62,4 +61,4 @@
   .icon-footer{
     @apply size-12 border p-2.5 rounded-full transition-all duration-300 hover:bg-[#F3A60D];
   }
-}
+} 
