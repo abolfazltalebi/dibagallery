@@ -6,7 +6,7 @@ export default function ProductsCard(Pprops) {
     <Link to={"/"}>
       <div className=" backdrop-blur-md rounded-2xl p-3 space-y-6 transition-all duration-300 hover:-translate-y-1.5 group">
         <div>
-          <img src={image} className="rounded-2xl" loading="lazy" alt="" />
+          <img loading="lazy" src={image} className="rounded-2xl" loading="lazy" alt="" />
         </div>
         <div className="space-y-4">
           <h2 className="font-bold line-clamp-1 text">{name}</h2>

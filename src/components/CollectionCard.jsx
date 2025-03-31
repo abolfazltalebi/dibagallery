@@ -2,7 +2,7 @@ export default function CollectionCard(Collection) {
     const {collectionImage,name}=Collection;
   return (
     <div className="relative">
-      <img
+      <img loading="lazy"
         src={collectionImage}
         alt="Collection 1"
         className="w-full h-full object-cover"

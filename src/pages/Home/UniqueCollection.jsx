@@ -5,10 +5,10 @@ export default function UniqueCollection() {
   return (
     <section className="container">
       <Link className="md:inline hidden">
-        <img src={Bdesktop} alt="banner desktop" />
+        <img loading="lazy" src={Bdesktop} alt="banner desktop" />
       </Link>
       <Link className=" md:hidden">
-        <img src={Bmobile} alt="banner mobile" />
+        <img loading="lazy" src={Bmobile} alt="banner mobile" />
       </Link>
     </section>
   );

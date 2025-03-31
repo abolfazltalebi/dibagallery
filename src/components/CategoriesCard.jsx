@@ -13,7 +13,7 @@ export default function CategoriesCard(categories) {
     >
       <Link to={`/categories/${categoriesName}`} className="space-y-5">
         <div>
-          <img src={imageCategories} alt="" />
+          <img loading="lazy" src={imageCategories} alt="" />
         </div>
         <h3 className="font-bold capitalize text-center">{categoriesName}</h3>
       </Link>

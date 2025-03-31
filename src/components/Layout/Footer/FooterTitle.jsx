@@ -7,7 +7,7 @@ export default function FooterTitle() {
   return (
     <div className="space-y-4 flex flex-col items-center my-6">
       <div>
-        <img src={footerLogo} alt="" />
+        <img loading="lazy" src={footerLogo} alt="" />
       </div>
       <div className="flex items-center justify-center gap-4 group">
         <FaInstagram className="icon-footer" />

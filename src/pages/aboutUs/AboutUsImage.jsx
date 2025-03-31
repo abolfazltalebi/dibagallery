@@ -7,7 +7,7 @@ export default function AboutUsImage() {
         Diba Jewelry Gallery: A Timeless Expression of Elegance and
         Craftsmanship
       </h2>
-      <img src={aboutpage} loading="lazy" className="rounded-4xl" alt="" />
+      <img loading="lazy" src={aboutpage} loading="lazy" className="rounded-4xl" alt="" />
     </section>
   );
 }

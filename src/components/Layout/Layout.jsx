@@ -6,7 +6,7 @@ export default function Layout() {
   return (
     <>
       <Header />
-      <main className="space-y-12 my-6 overflow-hidden ">
+      <main className="space-y-6 my-6 overflow-hidden ">
         <Outlet />
       </main>
       <Footer />
