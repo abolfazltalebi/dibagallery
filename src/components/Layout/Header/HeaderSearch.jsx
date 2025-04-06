@@ -50,7 +50,7 @@ export default function HeaderSearch() {
               value={searchText}
               onChange={(e) => setSearchText(e.target.value)}
               onKeyDown={handleSearch}
-              className="h-full w-full px-4 outline-none focus-visible:outline-[#D39C4A] rounded-[50px_0px_50px_50px]"
+              className="h-full w-full px-4 outline-none focus-visible:outline-[#D39C4A] text-black rounded-[50px_0px_50px_50px]"
             />
           </div>
         </ScrollAnimation>

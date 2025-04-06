@@ -6,7 +6,7 @@ export default function AboutSectionCaption() {
       <h2 className="text-2xl sm:text-3xl md:text-6xl font-medium">
         Modern and stylish jewelry
       </h2>
-      <p className="text-gray-600 text-sm leading-normal">
+      <p className="text-gray-300 text-sm leading-normal">
         Lorem ipsum odor amet, consectetuer adipiscing elit. Quisque hendrerit
         lectus dignissim felis litora malesuada fames. Vehicula in metus,
         torquent suspendisse lacinia aenean. Per mi sodales inceptos montes nec
