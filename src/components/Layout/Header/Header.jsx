@@ -4,6 +4,7 @@ import HeaderLastLogo from "./HeaderLastLogo";
 import HeaderLogo from "./HeaderLogo";
 import HeaderMobile from "./HeaderMobile";
 import HeaderSearch from "./HeaderSearch";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -14,9 +15,11 @@ export default function Header() {
         <div className="hidden sm:flex items-center gap-4 relative">
           <HeaderSearch />
           <HeaderBag />
-          <button className="bg-[#E58411] px-5 py-2 rounded-full text-sm hidden sm:flex">
-            Login
-          </button>
+          <Link to={"login"}>
+            <button className="bg-[#E58411] px-5 py-2 rounded-full text-sm hidden sm:flex cursor-pointer">
+              Login
+            </button>
+          </Link>
         </div>
         <HeaderMobile />
       </div>
